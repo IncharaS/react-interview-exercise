@@ -9,7 +9,7 @@ Both search bars update results dynamically as you type (case-insensitive).
 Districts and schools are alphabetically sorted and show the city name beside each entry.
 
 # Interactive Map & List View
-![Map and List Interaction](./assets/map-interaction.png)
+![Map and List Interaction](./src/assets/map-interaction.png)
 The school list and map are interconnected for an enhanced user experience:
 
 Hover over a school in the list → highlights the corresponding marker in green on the map.
