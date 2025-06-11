@@ -1,4 +1,10 @@
 # Features Implemented
+
+# How to Run
+add google-api-key to .env.local -> VITE_GOOGLE_MAPS_API_KEY="add-here"
+npm install
+npm run dev
+
 # Dynamic Search (Districts & Schools)
 District Search: Type at least 3 characters to begin seeing matching districts in the dropdown.
 
