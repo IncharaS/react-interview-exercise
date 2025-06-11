@@ -16,6 +16,9 @@ Districts and schools are alphabetically sorted and show the city name beside ea
 
 # Interactive Map & List View
 ![Map and List Interaction](./src/assets/map-interaction.png)
+![School List](https://github.com/user-attachments/assets/2265a5f9-dab0-4ebf-b307-78fd6417d703)
+![School Details](https://github.com/user-attachments/assets/9e7c787a-f0d3-40d3-b8b6-2591e6e8745e)
+
 The school list and map are interconnected for an enhanced user experience:
 
 Hover over a school in the list → highlights the corresponding marker in green on the map.
