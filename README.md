@@ -3,6 +3,7 @@
 # How to Run
 
 npm install
+
 npm run dev
 
 # Dynamic Search (Districts & Schools)
