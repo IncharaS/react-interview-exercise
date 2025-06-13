@@ -1,3 +1,3 @@
 export const getGoogleMapsApiKey = () => {
-    return import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+    return "AIzaSyA6ybJwxJZgd0t91Xx_QEr_4FU5hph0ifM";
 };
