@@ -10,8 +10,8 @@ export interface BreadcrumbNavProps {
 export interface DistrictListProps {
   districts: NCESDistrictFeature[];
   setSelectedDistrict: (district: NCESDistrictFeature) => void;
-  showDistrictMap: boolean;
-  setShowDistrictMap: React.Dispatch<React.SetStateAction<boolean>>;
+  // showDistrictMap: boolean;
+  // setShowDistrictMap: React.Dispatch<React.SetStateAction<boolean>>;
   isLoaded: boolean;
 }
 
@@ -19,8 +19,8 @@ export interface SchoolsListProps {
   schools: NCESSchoolFeature[];
   setSelectedSchool: (school: NCESSchoolFeature) => void;
   selectedDistrict: NCESDistrictFeature;
-  showMap: boolean;
-  setShowMap: React.Dispatch<React.SetStateAction<boolean>>;
+  // showMap: boolean;
+  // setShowMap: React.Dispatch<React.SetStateAction<boolean>>;
   isLoaded: boolean;
 }
 

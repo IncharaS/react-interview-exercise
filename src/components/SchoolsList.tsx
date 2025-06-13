@@ -8,8 +8,8 @@ const SchoolsList: React.FC<SchoolsListProps> = ({
     setSelectedSchool,
     selectedDistrict,
     isLoaded,
-    showMap,
-    setShowMap,
+    // showMap,
+    // setShowMap,
 }) => {
     // Define map container size
     const containerStyle = {

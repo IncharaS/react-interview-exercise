@@ -27,7 +27,7 @@ const Home: React.FC = () => {
   const [schools, setSchools] = useState<NCESSchoolFeature[]>([]);
   const [selectedSchool, setSelectedSchool] = useState<NCESSchoolFeature | null>(null);
 
-  const [showMap, setShowMap] = useState(false);
+  // const [showMap, setShowMap] = useState(false);
   const [showDistrictMap, setShowDistrictMap] = useState(false);
 
   const [schoolCharacteristics, setSchoolCharacteristics] = useState<PublicSchoolCharacteristicsFeatureAttributes | null>(null);
@@ -166,8 +166,8 @@ const Home: React.FC = () => {
           schools={schools}
           selectedDistrict={selectedDistrict}
           setSelectedSchool={handleSelectSchool}
-          showMap={showMap}
-          setShowMap={setShowMap}
+          // showMap={showMap}
+          // setShowMap={setShowMap}
           isLoaded={isLoaded}
         />
       )}
